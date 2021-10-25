@@ -10,6 +10,7 @@ struct ContentView: View {
     @State var wakeTime = Date()
     @State var sleepAmount = 8.0
     @State var numCoffee = 2
+    @State var bedTime = ""
     
     let model = CoffeeSleepCalc()
     
@@ -39,6 +40,10 @@ struct ContentView: View {
                 do {
                     let prediction = try model.prediction(wake: wake, estimatedSleep: sleepAmount, coffee: Double(numCoffee))
                     let sleepTime = wakeTime - prediction.actualSleep
+                    let formatter = DateFormatter()
+                    formatter.timeStyle = .short
+                    
+                    bedTime = formatter.string(from: sleepTime)
                 } catch {
                     print("an error occurred")
                 }
@@ -50,6 +55,10 @@ struct ContentView: View {
                     .cornerRadius(10)
             }
             .padding()
+            
+            if bedTime != "" {
+                Text("Your ideal bed time is \(bedTime)")
+            }
         }
     }
 }

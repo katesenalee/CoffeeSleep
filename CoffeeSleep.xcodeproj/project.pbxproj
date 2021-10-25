@@ -11,6 +11,7 @@
 		A67C2BAD2726B8A700A29D83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C2BAC2726B8A700A29D83 /* ContentView.swift */; };
 		A67C2BAF2726B8AE00A29D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67C2BAE2726B8AE00A29D83 /* Assets.xcassets */; };
 		A67C2BB22726B8AE00A29D83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67C2BB12726B8AE00A29D83 /* Preview Assets.xcassets */; };
+		A67C2BB92726BDF100A29D83 /* CoffeeSleepCalc.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A67C2BB82726BDF100A29D83 /* CoffeeSleepCalc.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A67C2BAC2726B8A700A29D83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A67C2BAE2726B8AE00A29D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67C2BB12726B8AE00A29D83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A67C2BB82726BDF100A29D83 /* CoffeeSleepCalc.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CoffeeSleepCalc.mlmodel; path = "../../../../../../var/folders/gc/sknx_9kd46z6d_p531z9n9300000gn/T/com.apple.dt.CreateML.app/sharing/drag/DBD7EC0E-7B9D-42F3-A536-003A81122A5F/CoffeeSleepCalc.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				A67C2BAA2726B8A700A29D83 /* CoffeeSleepApp.swift */,
 				A67C2BAC2726B8A700A29D83 /* ContentView.swift */,
 				A67C2BAE2726B8AE00A29D83 /* Assets.xcassets */,
+				A67C2BB82726BDF100A29D83 /* CoffeeSleepCalc.mlmodel */,
 				A67C2BB02726B8AE00A29D83 /* Preview Content */,
 			);
 			path = CoffeeSleep;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67C2BB92726BDF100A29D83 /* CoffeeSleepCalc.mlmodel in Sources */,
 				A67C2BAD2726B8A700A29D83 /* ContentView.swift in Sources */,
 				A67C2BAB2726B8A700A29D83 /* CoffeeSleepApp.swift in Sources */,
 			);
